@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&family=Inconsolata&family=Inter&family=PT+Sans:wght@400;700&family=Poppins:wght@400;700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Norican);
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.bg-site{
+
+    background: linear-gradient(138deg, rgba(86,250,255,1) 0%, rgba(245,113,255,1) 100%);
+    box-shadow: 0 8px 32px 0 rgba(245,113,255, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+}
+
+*{
+
+    font-family: 'Noto Serif', serif;
+
+}
+
+h1{
+
+    font-family: 'Yellowtail', cursive;
+
+}
